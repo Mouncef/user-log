@@ -24,8 +24,5 @@ class UserLogExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-
-//        $loader2 = new Loader\XmlFileLoader($container, new FileLocator(array(__DIR__.'/../Resources/config')));
-//        $loader2->load('g_chart.xml');
     }
 }

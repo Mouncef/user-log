@@ -1,0 +1,8 @@
+parameters:
+
+services:
+
+    #event_subscribers:
+    #    namespace: Mouncef\UserLog\
+    #    resource: '../EventSubscriber/*'
+    #    tags: [event_subscriber]
