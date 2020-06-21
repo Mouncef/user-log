@@ -1,0 +1,27 @@
+{
+    "name": "Mouncef/user-log",
+    "type": "symfony-bundle",
+    "description": "Bundle for logging all requests",
+    "keywords": ["symfony", "framework", "user-log", "log", "user", "Mouncef"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZAGHRAT Mouncef",
+            "email": "zaghratmoncef@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouncef\\UserLog\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    }
+}
