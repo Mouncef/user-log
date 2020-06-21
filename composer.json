@@ -1,5 +1,5 @@
 {
-    "name": "Mouncef/user-log",
+    "name": "mouncef/user-log",
     "type": "symfony-bundle",
     "description": "Bundle for logging all requests",
     "keywords": ["symfony", "framework", "user-log", "log", "user", "Mouncef"],
